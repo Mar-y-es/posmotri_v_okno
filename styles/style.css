@@ -146,6 +146,7 @@ video {
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
+  letter-spacing: 0.001em;
 }
 
 .search-form__textfield:active {
@@ -220,7 +221,7 @@ video {
 }
 
 .title {
-  padding: 0 0 26px;
+  padding: 0 0 15px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
@@ -236,7 +237,7 @@ video {
 .content__list {
   position: relative;
   overflow-y: scroll;
-  block-size: 298px;
+  block-size: 300px;
   scrollbar-width: none;
 }
 
@@ -245,7 +246,7 @@ video {
 }
 
 .content__list-item:not(:last-child) {
-  margin: 0 0 34px;
+  margin: 0 0 32px;
 }
 
 .content__card-link {
