@@ -70,7 +70,7 @@ video {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 0 30px 30px;
+  margin: 0 0 20px 30px;
   inline-size: 100%;
 }
 
@@ -103,6 +103,7 @@ video {
   gap: 5px;
   border: none;
   inline-size: 100%;
+  padding-bottom: 6px;
 }
 
 .search-form__fieldset-title {
@@ -221,7 +222,7 @@ video {
 }
 
 .title {
-  padding: 0 0 15px;
+  padding: 0 0 25px;
   color: #FFF;
   font-family: Oswald, sans-serif;
   font-weight: 700;
