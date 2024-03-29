@@ -81,7 +81,7 @@ video {
 .result__video-container {
   position: relative;
   inline-size: 711px;
-  margin: 0 0 1px;
+  margin: 0 0 2px;
 }
 
 .search-form {
@@ -129,9 +129,9 @@ video {
 }
 
 .search-form__textfield {
-  border-top: 1px solid #FFF;
+  border-top: 1px solid currentColor;
   border-right: none;
-  border-bottom: 1px solid #FFF;
+  border-bottom: 1px solid currentColor;
   border-left: none;
   padding: 2px 0;
   color: currentColor;
@@ -185,7 +185,7 @@ video {
 
 .button {
   border: 1px solid #FFF;
-  padding: 6px 70px;
+  padding: 6px 69px;
   color: #FFF;
   font-family: 'Fira Sans Condensed', sans-serif;
   font-weight: 700;
@@ -279,6 +279,7 @@ video {
 .content__video-card {
   display: flex;
   justify-content: space-between;
+  padding-right: 30px;
 }
 
 .content__video-card-title {
@@ -300,8 +301,8 @@ video {
 }
 
 .content__video-card-thumbnail {
-  inline-size: 194px;
-  block-size: 103px;
+  inline-size: 200px;
+  block-size: 102px;
   object-fit: cover;
   object-position: center;
 }
