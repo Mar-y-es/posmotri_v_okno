@@ -70,7 +70,7 @@ video {
 .content {
   display: flex;
   gap: 30px;
-  margin: 0 0 20px 30px;
+  margin: 0 30px 20px 30px;
   inline-size: 100%;
 }
 
@@ -279,7 +279,6 @@ video {
 .content__video-card {
   display: flex;
   justify-content: space-between;
-  padding-right: 30px;
 }
 
 .content__video-card-title {
